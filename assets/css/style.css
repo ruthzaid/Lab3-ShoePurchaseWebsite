@@ -1,0 +1,48 @@
+html, body {
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+body{
+    font-family: 'Bangers', cursive;
+}
+
+.pic img{
+    border-radius: 50%;
+    width: 150px;
+}
+
+.faqs h1{
+    text-align:center;
+}
+.faqs a{
+    color: inherit;
+    text-align: left;
+}
+.faqs a:hover{
+    background-color: rgb(236, 217, 200);
+} 
+
+.accordion .card-header h2{
+    font-size: 1rem;
+}
+.accordion .card{
+    border-radius: 0;
+    background: none;
+    border-left-width:0;
+    border-right-width:0; 
+}
+.accordion .card .card-header{
+    background: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 0;
+}
+
+footer{
+    position: sticky;
+    height: 150px;
+    top: calc( 100vh - 150px );
+}
